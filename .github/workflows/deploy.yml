@@ -31,8 +31,6 @@ jobs:
       - name: Crear página
         run: npm run build
 
-      - name: Configurar Pages
-        uses: actions/configure-pages@v5
 
       - name: Subir página
         uses: actions/upload-pages-artifact@v3
